@@ -65,6 +65,7 @@ jobs:
               run: |
                   pip3 install --user --no-cache-dir --upgrade meson
                   pip3 install --user --no-cache-dir --upgrade -r tools/requirements.txt
+                  echo $PATH
 
             - name: Check toml.hpp
               run: |
